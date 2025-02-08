@@ -1,4 +1,4 @@
-import { getImagesFromCloudinary } from "@/lib/cloudinaryConfig";
+import { getImagesFromCloudinary } from "@/lib/cloudinary";
 import ImageModal from "@/app/components/ImageModal";
 
 export const revalidate = 3600; // Revalidate every hour
